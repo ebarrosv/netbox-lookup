@@ -1,7 +1,7 @@
 #!/bin/bash
 
-NETBOX_URL="http://192.168.150.212:8000"
-API_TOKEN="0b5f9c22b746485c176ec5c4a22f81b0d430527a"
+NETBOX_URL="HOST_URL"
+API_TOKEN="API_KEY"
 
 if [ -z "$1" ]; then
     echo "Usage: $0 <ip_file>"
